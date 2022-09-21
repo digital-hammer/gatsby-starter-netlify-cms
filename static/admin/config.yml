@@ -16,7 +16,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
-    create: true
+    create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {
